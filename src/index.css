@@ -52,6 +52,7 @@ h3 {
 
 .app-container {
     display: flex;
+    flex-wrap: wrap;
     margin-top: -20px;
 }
 
@@ -104,6 +105,8 @@ h3 {
 }
 
 .uvi-psi-container {
+    flex-grow: 1;
+    max-width: 530px;
     display: grid;
     grid-template-rows: repeat(2, 300px);
     row-gap: 15px;
